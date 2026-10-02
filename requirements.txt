@@ -1,0 +1,6 @@
+onnxruntime-gpu[cuda,cudnn]>=1.20
+tensorrt-cu13-libs<11   # opcional: --backend trt (detector y ArcFace ~2x más rápidos)
+onnx
+opencv-python
+numpy
+pyvirtualcam

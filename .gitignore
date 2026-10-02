@@ -1,0 +1,46 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Model weights and TensorRT cache (>800MB)
+models/*.onnx
+models/trt_cache/
+*.onnx
+*.engine
+*.plan
+*.trt
+*.zip
+*.tar.gz
+
+# Media inputs & outputs (private faces, backgrounds, benchmark videos)
+caras/*
+!caras/.gitkeep
+fondos/*
+!fondos/.gitkeep
+videos/*
+!videos/.gitkeep
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local scratch / notes
+SIGUIENTE_SESION.md
