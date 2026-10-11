@@ -44,3 +44,12 @@ Thumbs.db
 
 # Local scratch / notes
 SIGUIENTE_SESION.md
+
+# Secretos: nunca al repositorio
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*
